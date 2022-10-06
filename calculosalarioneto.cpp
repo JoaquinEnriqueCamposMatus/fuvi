@@ -7,6 +7,8 @@ instrucciones: salarioneto
 */
 
 #include<iostream>
+#include<iomanip>
+#include<string>
 using namespace std;
 //VARIABLE GLOBAL
 const double Tasaantiguedad = 15;
@@ -22,8 +24,8 @@ int main(){
 	
 	// pedir al usuario
 	
-	cout << "HOLAA " << nombre;
-	cin >> nombre;
+	cout << "hola ingrese su nombre " << endl;
+	getline (cin, nombre);
 
 	
 	cout << " Sea bienvenido  " << nombre << " Ingrese su salario basico C$: ";
